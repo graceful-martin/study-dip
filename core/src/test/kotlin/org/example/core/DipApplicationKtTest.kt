@@ -10,7 +10,6 @@ import org.springframework.boot.test.context.SpringBootTest
 @SpringBootTest
 class DipApplicationKtTest @Autowired constructor(
     private val userService: UserService,
-    private val provider: ObjectProvider<Any>
 ) {
     @Test
     fun `서비스 테스트`() {
