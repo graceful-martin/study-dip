@@ -15,9 +15,5 @@ class DipApplicationKtTest @Autowired constructor(
     @Test
     fun `서비스 테스트`() {
         userService.saveUser()
-
-        for (bean in provider) {
-            println(bean)
-        }
     }
 }
